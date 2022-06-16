@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+  height: 100vh;
+  background-color: #000000ce;
+  display: flex;
+}
+
+.mainHeading
+{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 2rem;
+  margin-bottom: -3rem;
+  color: rgb(255, 253, 193);
+  text-align: center;
+}
+
+.container
+{
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+#show
+{
+  width: 100%;
+  font-size: 72px;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 100px;
+  color: orange;
+  font-weight: lighter;
+}
+
+.buttons
+{
+  text-align: center;
+  margin-top: 2em;
+}
+
+#startStop
+{
+  margin: 50px;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 2px solid blue;
+  background-color: #474444ce;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 5px blue;
+  font-size: 20px;
+}
+
+#startStop:hover
+{
+  background-color: #474444ce;
+}
+
+#startStop:active
+{
+  background-color: #474444ce;
+  box-shadow: 0 5px blue;
+  transform: translateY(4px);
+}
+
+
+#resetLap
+{
+  margin: 50px;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 2px solid blue;
+  background-color: #474444ce;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 5px blue;
+  font-size: 20px;
+}
+
+#resetLap:hover
+{
+  background-color: #474444ce
+}
+
+#resetLap:active
+{
+  background-color: #474444ce;
+  box-shadow: 0 5px blue;
+  transform: translateY(4px)
+}
+
+
+#laps
+{
+  color: white;
+  margin-left: 300px;
+  overflow: auto;
+  position: relative;
+  padding: 30px;
+}
+
+
+.lapItems
+{
+  text-align: center;
+}
+
+
+.currentTime
+{
+  margin-left: 250px;
+  border: 1px solid #9c8888ce;
+  padding: 10px;
+  margin-top: 10px;
+  width: 30%;
+  display: flex;
+  color: white;
+  font-size: 20px;
+}

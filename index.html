@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="mainHeading">Stopwatch</h1>
+      <div id="show">
+        00:00:00
+      </div>
+
+      <div class="buttons"> 
+        <button id="resetLap" onclick="resetAndLap()">Lap</button>
+        <button id="startStop" onclick="startAndStop()">Start</button>
+      </div>
+
+      <div class="lapList">
+        <ol id="laps">
+        </ol>
+      </div>
+
+    </div>
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
